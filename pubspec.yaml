@@ -1,0 +1,41 @@
+name: karaoke
+description: A music app.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+  flutter_svg: any
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/font/
+    - assets/svgs/
+
+  fonts:
+    - family: Quantico
+      fonts:
+        - asset: assets/font/Quantico-Regular.ttf
+        - asset: assets/font/Quantico-Italic.ttf
+          weight: 300
+        - asset: assets/font/Quantico-Regular.ttf
+          weight: 400
+        - asset: assets/font/Quantico-Bold.ttf
+          weight: 600
+        - asset: assets/font/Quantico-BoldItalic.ttf
+          weight: 700
