@@ -54,6 +54,10 @@ meta
 2.12
 file:///Users/macs/.pub-cache/hosted/pub.dartlang.org/meta-1.7.0/
 file:///Users/macs/.pub-cache/hosted/pub.dartlang.org/meta-1.7.0/lib/
+nested
+2.12
+file:///Users/macs/.pub-cache/hosted/pub.dartlang.org/nested-1.0.0/
+file:///Users/macs/.pub-cache/hosted/pub.dartlang.org/nested-1.0.0/lib/
 path
 2.12
 file:///Users/macs/.pub-cache/hosted/pub.dartlang.org/path-1.8.0/
@@ -70,6 +74,14 @@ petitparser
 2.14
 file:///Users/macs/.pub-cache/hosted/pub.dartlang.org/petitparser-4.4.0/
 file:///Users/macs/.pub-cache/hosted/pub.dartlang.org/petitparser-4.4.0/lib/
+pin_code_fields
+2.12
+file:///Users/macs/.pub-cache/hosted/pub.dartlang.org/pin_code_fields-7.4.0/
+file:///Users/macs/.pub-cache/hosted/pub.dartlang.org/pin_code_fields-7.4.0/lib/
+provider
+2.12
+file:///Users/macs/.pub-cache/hosted/pub.dartlang.org/provider-6.0.3/
+file:///Users/macs/.pub-cache/hosted/pub.dartlang.org/provider-6.0.3/lib/
 source_span
 2.12
 file:///Users/macs/.pub-cache/hosted/pub.dartlang.org/source_span-1.8.1/

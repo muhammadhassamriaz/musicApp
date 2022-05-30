@@ -1,0 +1,4 @@
+#Tue May 31 03:20:14 PKT 2022
+base.0=/Volumes/HDD/MusicApp/karaoke/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

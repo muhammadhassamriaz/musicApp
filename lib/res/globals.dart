@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:karaoke/res/color.dart';
 
 import '../utils/default_size.dart';
 
@@ -6,7 +7,7 @@ import '../utils/default_size.dart';
 DefaultSize defaultSize = DefaultSize();
 
 ///Use this Height in [SizedBox]
-double HEIGHT_1 = defaultSize.screenHeight * .03;
+double HEIGHT_1 = defaultSize.screenHeight * .02;
 double HEIGHT_2 = defaultSize.screenHeight * .05;
 double HEIGHT_3 = defaultSize.screenHeight * .06;
 double HEIGHT_4 = defaultSize.screenHeight * .07;
@@ -34,7 +35,7 @@ BorderRadius BORDER_CIRCULAR_RADIUS = BorderRadius.circular(
 ///Use this [TextStyle] for Headings
 TextStyle? headingTextStyle(BuildContext context) {
   return Theme.of(context).textTheme.headline4?.copyWith(
-        fontSize: defaultSize.screenWidth * .065,
+        fontSize: defaultSize.screenWidth * .075,
         fontWeight: FontWeight.bold,
         color: Colors.black,
       );
@@ -52,7 +53,7 @@ TextStyle? subTitleTextStyle(BuildContext context) {
 ///Use this [TextStyle] for simple text
 TextStyle? labelTextStyle(BuildContext context) {
   return Theme.of(context).textTheme.bodyText1?.copyWith(
-        fontSize: defaultSize.screenWidth * .04,
+        fontSize: defaultSize.screenWidth * .035,
         fontWeight: FontWeight.normal,
         color: Colors.black,
         letterSpacing: 0.1,
@@ -62,7 +63,7 @@ TextStyle? labelTextStyle(BuildContext context) {
 ///Use this [TextStyle] for hint text
 TextStyle? hintTextStyle(BuildContext context) {
   return Theme.of(context).textTheme.bodyText1?.copyWith(
-        fontSize: defaultSize.screenWidth * .04,
+        fontSize: defaultSize.screenWidth * .035,
         fontWeight: FontWeight.normal,
         color: Colors.grey,
         letterSpacing: 0.1,
@@ -148,3 +149,10 @@ SizedBox SB_6W = SizedBox(
 
 //Navigator Key will be used to routing
 final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
+
+const LinearGradient LINEAR_GRADIENT = LinearGradient(
+  colors: [
+    PRIMARY_COLOR,
+    PRIMARY_COLOR,
+  ],
+);
