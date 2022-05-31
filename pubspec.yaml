@@ -16,6 +16,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  expansion_tile_card: ^2.0.0
   flutter_lints: ^1.0.0
   flutter_svg: ^1.0.3
   pin_code_fields: ^7.4.0
@@ -27,6 +28,7 @@ flutter:
   assets:
     - assets/font/
     - assets/svgs/
+    - assets/images/
 
   fonts:
     - family: Quantico

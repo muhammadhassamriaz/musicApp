@@ -18,6 +18,7 @@ class CustomTextField extends StatefulWidget {
   final TextInputType? textInputType;
   final bool? isFormField;
   final String? labelText;
+  final bool isSearchField;
 
   const CustomTextField({
     Key? key,
@@ -36,6 +37,7 @@ class CustomTextField extends StatefulWidget {
     this.onSubmitted,
     this.onValidator,
     required this.labelText,
+    this.isSearchField = false,
   }) : super(key: key);
 
   @override
@@ -47,10 +49,14 @@ class _CustomTextFieldState extends State<CustomTextField> {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(
-            10,
-          ),
-          color: Colors.grey[200]),
+        borderRadius: BorderRadius.circular(
+          10,
+        ),
+        border: widget.isSearchField ? Border.all(color: Colors.grey) : null,
+        color: widget.isSearchField
+            ? Theme.of(context).scaffoldBackgroundColor
+            : Colors.grey[200],
+      ),
       child: Padding(
         padding: const EdgeInsets.all(2.0),
         child: MediaQuery(
@@ -74,10 +80,10 @@ class _CustomTextFieldState extends State<CustomTextField> {
                       maxHeight: defaultSize.screenWidth * .08,
                       maxWidth: defaultSize.screenWidth * .08,
                     ),
-                    suffixIconConstraints: BoxConstraints(
-                      maxHeight: defaultSize.screenWidth * .08,
-                      maxWidth: defaultSize.screenWidth * .08,
-                    ),
+                    // suffixIconConstraints: BoxConstraints(
+                    // //   maxHeight: defaultSize.screenWidth * .08,
+                    // //   maxWidth: defaultSize.screenWidth * .08,
+                    // // ),
                     contentPadding: EdgeInsets.symmetric(
                       vertical: defaultSize.screenHeight * .02,
                       horizontal: defaultSize.screenWidth * .05,

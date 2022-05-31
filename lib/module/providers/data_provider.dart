@@ -10,4 +10,14 @@ class DataProvider with ChangeNotifier {
     _index = _value;
     notifyListeners();
   }
+
+  int _homeTypeIndex = 0;
+  int get homeTypeIndex {
+    return _homeTypeIndex;
+  }
+
+  setHomeTypeIndex(int _value) {
+    _homeTypeIndex = _value;
+    notifyListeners();
+  }
 }

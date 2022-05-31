@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:karaoke/module/view/home.dart';
 import 'package:karaoke/module/widgets/bottom_bar.dart';
 
 class MainView extends StatelessWidget {
@@ -8,10 +9,7 @@ class MainView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [],
-        ),
+        child: Home(),
       ),
       bottomNavigationBar: BottomNavBar(),
     );
