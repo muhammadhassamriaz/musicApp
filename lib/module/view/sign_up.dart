@@ -8,14 +8,14 @@ import 'package:karaoke/res/color.dart';
 import 'package:karaoke/res/constants.dart';
 import 'package:karaoke/res/globals.dart';
 
-class SignUpScreen extends StatefulWidget {
-  const SignUpScreen({Key? key}) : super(key: key);
+class SignUpView extends StatefulWidget {
+  const SignUpView({Key? key}) : super(key: key);
 
   @override
-  State<SignUpScreen> createState() => _SignUpScreenState();
+  State<SignUpView> createState() => _SignUpViewState();
 }
 
-class _SignUpScreenState extends State<SignUpScreen> {
+class _SignUpViewState extends State<SignUpView> {
   final TextEditingController _firstNameTextEditingController =
           TextEditingController(),
       _lastNameTextEditingController = TextEditingController(),
@@ -125,7 +125,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   onPressed: () {
                     navigatorKey.currentState?.push(
                       MaterialPageRoute(
-                        builder: (_) => LoginScreen(),
+                        builder: (_) => LoginView(),
                       ),
                     );
                   },
@@ -148,7 +148,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           ..onTap = () {
                             navigatorKey.currentState?.push(
                               MaterialPageRoute(
-                                builder: (_) => LoginScreen(),
+                                builder: (_) => LoginView(),
                               ),
                             );
                           },

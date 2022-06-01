@@ -5,8 +5,8 @@ import 'package:karaoke/module/components/home/popular.dart';
 import 'package:karaoke/module/providers/data_provider.dart';
 import 'package:provider/provider.dart';
 
-class Home extends StatelessWidget {
-  const Home({Key? key}) : super(key: key);
+class HomeView extends StatelessWidget {
+  const HomeView({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +21,7 @@ class Home extends StatelessWidget {
               child: Popular(),
             )
           else
-            Expanded(
+            const Expanded(
               child: Category(),
             )
         ],

@@ -18,7 +18,7 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
     Future.delayed(Duration(seconds: 2), () {
       navigatorKey.currentState?.pushAndRemoveUntil(
-          MaterialPageRoute(builder: (_) => SignUpScreen()), (route) => false);
+          MaterialPageRoute(builder: (_) => SignUpView()), (route) => false);
     });
   }
 

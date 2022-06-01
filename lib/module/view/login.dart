@@ -8,8 +8,8 @@ import '../../res/globals.dart';
 import '../widgets/custom_button.dart';
 import '../widgets/custom_text_field.dart';
 
-class LoginScreen extends StatelessWidget {
-  LoginScreen({Key? key}) : super(key: key);
+class LoginView extends StatelessWidget {
+  LoginView({Key? key}) : super(key: key);
   final _phoneNumberTextEditingController = TextEditingController();
 
   @override
@@ -62,7 +62,7 @@ class LoginScreen extends StatelessWidget {
                               onPressed: () {
                                 navigatorKey.currentState?.push(
                                   MaterialPageRoute(
-                                    builder: (_) => const PinVerification(),
+                                    builder: (_) => const PinVerificationView(),
                                   ),
                                 );
                               },

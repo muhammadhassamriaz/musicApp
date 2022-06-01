@@ -7,8 +7,8 @@ import '../../res/globals.dart';
 import '../widgets/custom_button.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
 
-class PinVerification extends StatelessWidget {
-  const PinVerification({Key? key}) : super(key: key);
+class PinVerificationView extends StatelessWidget {
+  const PinVerificationView({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

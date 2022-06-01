@@ -15,12 +15,6 @@ class _PopularTabbarState extends State<PopularTabbar> {
   int index = 0;
 
   @override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-  }
-
-  @override
   Widget build(BuildContext context) {
     return TabBar(
       onTap: (i) {
