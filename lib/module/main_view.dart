@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:karaoke/module/providers/data_provider.dart';
+import 'package:karaoke/module/view/account.dart';
 import 'package:karaoke/module/view/home.dart';
 import 'package:karaoke/module/view/sing.dart';
 import 'package:karaoke/module/widgets/bottom_bar.dart';
@@ -14,7 +15,9 @@ class MainView extends StatelessWidget {
       body: SafeArea(
         child: Provider.of<DataProvider>(context).index == 0
             ? const HomeView()
-            : const SingView(),
+            : Provider.of<DataProvider>(context).index == 1
+                ? const SingView()
+                : const AccountView(),
       ),
       bottomNavigationBar: const BottomNavBar(),
     );

@@ -31,6 +31,7 @@ class Constants {
   static const String FORWARD = "assets/svgs/forward.svg";
   static const String BACKWORD = "assets/svgs/backword.svg";
   static const String PLAY = "assets/svgs/play.svg";
+  static const String SUBSCRIBE = "assets/svgs/subscribe.svg";
   //Images
   static const String PROFILEAVATAR = "assets/images/profileavatar.png";
   static const String MUSICTILE = "assets/images/musictile.png";

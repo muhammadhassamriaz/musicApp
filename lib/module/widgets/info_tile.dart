@@ -9,10 +9,14 @@ import 'package:karaoke/res/globals.dart';
 class InfoTile extends StatelessWidget {
   final bool isSong;
   final bool isRecording;
+  final String? title;
+  final VoidCallback? callback;
   const InfoTile({
     Key? key,
     this.isSong = false,
     this.isRecording = false,
+    this.callback,
+    this.title,
   }) : super(key: key);
 
   @override
@@ -64,11 +68,15 @@ class InfoTile extends StatelessWidget {
         if (isSong)
           GestureDetector(
             onTap: () {
-              navigatorKey.currentState?.push(
-                MaterialPageRoute(
-                  builder: (_) => const RecordView(),
-                ),
-              );
+              if(callback == null){
+                navigatorKey.currentState?.push(
+                  MaterialPageRoute(
+                    builder: (_) => const RecordView(),
+                  ),
+                );
+              } else {
+                callback!();
+              }
             },
             child: Container(
               width: WIDTH_5 * 2,
@@ -82,7 +90,7 @@ class InfoTile extends StatelessWidget {
               clipBehavior: Clip.antiAliasWithSaveLayer,
               child: Center(
                 child: Text(
-                  "Sing",
+                  title ?? "Sing",
                   style: labelTextStyle(context)?.copyWith(
                     color: SECONDARY_COLOR,
                   ),

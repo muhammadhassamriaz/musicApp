@@ -12,11 +12,13 @@ class EndSongPopUp extends StatefulWidget {
   final Widget? child;
   final VoidCallback pressNo;
   final VoidCallback pressYes;
+  final String? desciption;
   const EndSongPopUp({
     Key? key,
     required this.callback,
     required this.pressNo,
     required this.pressYes,
+    this.desciption,
     this.child,
   }) : super(key: key);
 
@@ -63,7 +65,8 @@ class _EndSongPopUpState extends State<EndSongPopUp> {
                               SB_2H,
                               Center(
                                 child: Text(
-                                  "The recording is not finished yet.\nare you sure you want to end it?",
+                                  widget.desciption ??
+                                      "The recording is not finished yet.\nare you sure you want to end it?",
                                   style: labelTextStyle(context),
                                 ),
                               ),
