@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:karaoke/res/color.dart';
+import '../../package/route.dart';
 
 void configureApp() {
   WidgetsFlutterBinding.ensureInitialized();

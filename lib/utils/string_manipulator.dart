@@ -1,4 +1,4 @@
-import '../res/globals.dart';
+import '../../package/route.dart';
 
 extension StringManipulator on String {
   static getValidPassword(String? value) {

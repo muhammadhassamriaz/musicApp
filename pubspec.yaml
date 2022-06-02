@@ -4,7 +4,7 @@ description: A music app.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.16.2 <3.0.0"
+  sdk: ">=2.12.2 <3.0.0"
 
 dependencies:
   flutter:
@@ -16,9 +16,16 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  expansion_tile_card: ^2.0.0
   flutter_lints: ^1.0.0
-  flutter_svg: any
-
+  flutter_svg: ^1.0.3
+  flutter_audio_waveforms: 
+  flutter_image_slideshow: ^0.1.2
+  liquid_progress_indicator: ^0.4.0
+  pin_code_fields: ^7.4.0
+  provider: ^6.0.3
+  simple_circular_progress_bar: ^1.0.1
+  wave_progress_bars: ^0.1.0
 
 flutter:
   uses-material-design: true
@@ -26,6 +33,7 @@ flutter:
   assets:
     - assets/font/
     - assets/svgs/
+    - assets/images/
 
   fonts:
     - family: Quantico

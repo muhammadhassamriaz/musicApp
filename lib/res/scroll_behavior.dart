@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-
-import '../utils/scroll_behavior.dart';
+import '../../package/route.dart';
 
 ScrollConfiguration scrollBehavior(BuildContext context, Widget? child) {
   return ScrollConfiguration(
