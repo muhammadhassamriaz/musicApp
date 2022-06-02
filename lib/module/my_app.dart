@@ -1,13 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:karaoke/module/providers/data_provider.dart';
-import 'package:karaoke/res/color.dart';
-import 'package:karaoke/res/constants.dart';
-import 'package:provider/provider.dart';
-import '../package/route.dart';
-import '../res/globals.dart';
-import '../res/scroll_behavior.dart';
-import '../utils/color_utils.dart';
-import '../utils/default_size_handler.dart';
+import '../../package/route.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);

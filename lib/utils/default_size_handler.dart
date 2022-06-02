@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-import 'default_size.dart';
-
+import '../../package/route.dart';
 class DefaultSizeInit extends StatelessWidget {
   const DefaultSizeInit({
     required this.builder,

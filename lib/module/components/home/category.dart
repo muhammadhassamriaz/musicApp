@@ -1,9 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:karaoke/module/components/home/category_expansion_tile.dart';
-import 'package:karaoke/res/color.dart';
-import 'package:karaoke/res/constants.dart';
-import 'package:karaoke/res/globals.dart';
-import 'package:expansion_tile_card/expansion_tile_card.dart';
+import '../../../package/route.dart';
 
 class Category extends StatelessWidget {
   const Category({Key? key}) : super(key: key);

@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-
-import '../../widgets/info_tile.dart';
+import '../../../package/route.dart';
 
 class Recording extends StatelessWidget {
   const Recording({Key? key}) : super(key: key);

@@ -1,12 +1,4 @@
-import 'package:flutter/gestures.dart';
-import 'package:flutter/material.dart';
-import 'package:karaoke/module/view/pin_verification.dart';
-import 'package:karaoke/res/color.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import '../../res/constants.dart';
-import '../../res/globals.dart';
-import '../widgets/custom_button.dart';
-import '../widgets/custom_text_field.dart';
+import '../../package/route.dart';
 
 class LoginView extends StatelessWidget {
   LoginView({Key? key}) : super(key: key);

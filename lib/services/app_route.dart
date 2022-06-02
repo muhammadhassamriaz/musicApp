@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-
-import '../package/route.dart';
+import '../../package/route.dart';
 
 class AppRoute {
   static Map<String, Widget Function(BuildContext)> route = {

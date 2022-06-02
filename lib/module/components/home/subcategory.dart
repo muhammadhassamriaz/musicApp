@@ -1,7 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:karaoke/res/globals.dart';
-
-import '../../widgets/info_tile.dart';
+import '../../../package/route.dart';
 
 class SubCategory extends StatelessWidget {
   final String title;

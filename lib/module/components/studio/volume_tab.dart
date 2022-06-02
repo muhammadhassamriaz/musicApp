@@ -1,12 +1,9 @@
 import 'dart:math';
 
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
 import 'package:wave_progress_bars/wave_progress_bars.dart';
 
-import '../../../res/color.dart';
-import '../../../res/globals.dart';
-
+import '../../../package/route.dart';
 class VolumeTab extends StatefulWidget {
   const VolumeTab({Key? key}) : super(key: key);
 

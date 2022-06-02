@@ -1,10 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:karaoke/module/view/record.dart';
-import 'package:karaoke/res/color.dart';
-
-import 'package:karaoke/res/constants.dart';
-import 'package:karaoke/res/globals.dart';
+import '../../package/route.dart';
 
 class InfoTile extends StatelessWidget {
   final bool isSong;

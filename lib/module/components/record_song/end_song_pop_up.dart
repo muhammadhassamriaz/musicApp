@@ -1,10 +1,6 @@
-import 'dart:ffi';
 import 'dart:ui';
 
-import 'package:flutter/material.dart';
-import 'package:karaoke/module/widgets/transparent_button.dart';
-import 'package:karaoke/res/color.dart';
-import 'package:karaoke/res/globals.dart';
+import '../../../package/route.dart';
 
 class EndSongPopUp extends StatefulWidget {
   static const String id = '/congrationlation_popup';

@@ -1,8 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:karaoke/res/constants.dart';
-import 'package:karaoke/res/globals.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import '../../../res/color.dart';
+import '../../../package/route.dart';
 
 class VoiceTab extends StatefulWidget {
   const VoiceTab({Key? key}) : super(key: key);

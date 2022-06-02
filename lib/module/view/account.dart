@@ -1,13 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:karaoke/module/components/account/subscribe_popup.dart';
-import 'package:karaoke/module/widgets/info_tile.dart';
-import 'package:karaoke/res/globals.dart';
-
-import '../../animation/slide_up_transparent_animation.dart';
-import '../../res/color.dart';
-import '../components/record_song/end_song_pop_up.dart';
-import '../components/record_song/promotional_music_popup.dart';
-import '../widgets/transparent_button.dart';
+import '../../package/route.dart';
 
 class AccountView extends StatefulWidget {
   const AccountView({Key? key}) : super(key: key);
@@ -123,7 +114,8 @@ class _AccountViewState extends State<AccountView> {
                                             context,
                                             SlideUpTransparentRoute(
                                               enterWidget: EndSongPopUp(
-                                                desciption: "Do you want to delete \n'my hometown' from your account",
+                                                desciption:
+                                                    "Do you want to delete \n'my hometown' from your account",
                                                 callback: () {
                                                   Navigator.pop(context);
                                                 },

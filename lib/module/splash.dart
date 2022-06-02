@@ -1,8 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:karaoke/module/view/sign_up.dart';
-import 'package:karaoke/res/constants.dart';
-import 'package:karaoke/res/globals.dart';
+import '../../package/route.dart';
 
 class SplashScreen extends StatefulWidget {
   static const String id = "/splash_screen";

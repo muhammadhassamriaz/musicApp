@@ -1,9 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:karaoke/module/components/home/popular_tabbar.dart';
-import 'package:karaoke/module/widgets/info_tile.dart';
-import 'package:karaoke/res/constants.dart';
-import 'package:karaoke/res/globals.dart';
+import '../../../package/route.dart';
 
 class Popular extends StatelessWidget {
   const Popular({Key? key}) : super(key: key);

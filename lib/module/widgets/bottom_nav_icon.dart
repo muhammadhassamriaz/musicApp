@@ -1,8 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
-
-import '../../res/color.dart';
-import '../../res/globals.dart';
+import '../../package/route.dart';
 
 class BottomNavIcon extends StatelessWidget {
   final VoidCallback callback;

@@ -1,12 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:karaoke/animation/slide_up_transparent_animation.dart';
-import 'package:karaoke/module/components/record_song/end_song_pop_up.dart';
-import 'package:karaoke/module/view/post_song.dart';
-import 'package:karaoke/module/view/trim_recording.dart';
-import 'package:karaoke/res/color.dart';
-import 'package:karaoke/res/globals.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import '../../../res/constants.dart';
+import '../../../package/route.dart';
 
 class Controls extends StatelessWidget {
   const Controls({Key? key}) : super(key: key);

@@ -1,11 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_image_slideshow/flutter_image_slideshow.dart';
-import 'package:karaoke/module/view/search.dart';
-import 'package:karaoke/res/color.dart';
-import '../../../res/constants.dart';
-import '../../../res/globals.dart';
-import '../../widgets/custom_text_field.dart';
-import 'package:flutter_svg/flutter_svg.dart';
+import '../../../package/route.dart';
 
 class SingHeader extends StatefulWidget {
   const SingHeader({Key? key}) : super(key: key);

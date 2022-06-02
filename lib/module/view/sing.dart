@@ -1,10 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:karaoke/module/components/sing/artist.dart';
-import 'package:karaoke/module/components/sing/genre.dart';
-import 'package:karaoke/module/components/sing/recording.dart';
-import 'package:karaoke/module/components/sing/sing_header.dart';
-import 'package:karaoke/module/components/sing/sing_tabbar.dart';
-import 'package:karaoke/module/components/sing/songs.dart';
+import '../../package/route.dart';
 
 class SingView extends StatelessWidget {
   const SingView({Key? key}) : super(key: key);

@@ -1,18 +1,10 @@
 import 'dart:math';
 
-import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:karaoke/module/components/studio/adjust_duration.dart';
-import 'package:karaoke/module/components/studio/change_duration.dart';
-import 'package:karaoke/module/widgets/transparent_button.dart';
-import 'package:karaoke/res/constants.dart';
-import '../../res/color.dart';
-import '../../res/globals.dart';
-import '../widgets/back_button.dart';
+import '../../package/route.dart';
 import 'package:wave_progress_bars/wave_progress_bars.dart';
 
 class TrimRecording extends StatefulWidget {
-  TrimRecording({Key? key}) : super(key: key);
+  const TrimRecording({Key? key}) : super(key: key);
 
   @override
   State<TrimRecording> createState() => _TrimRecordingState();

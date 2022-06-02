@@ -1,11 +1,4 @@
-import 'package:flutter/gestures.dart';
-import 'package:flutter/material.dart';
-import 'package:karaoke/module/main_view.dart';
-
-import '../../res/color.dart';
-import '../../res/globals.dart';
-import '../widgets/custom_button.dart';
-import 'package:pin_code_fields/pin_code_fields.dart';
+import '../../package/route.dart';
 
 class PinVerificationView extends StatelessWidget {
   const PinVerificationView({Key? key}) : super(key: key);

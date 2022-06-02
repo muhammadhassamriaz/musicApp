@@ -1,7 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:karaoke/res/color.dart';
-
-import '../utils/default_size.dart';
+import '../../package/route.dart';
 
 //Use defaultSize to set height and width of widgets
 DefaultSize defaultSize = DefaultSize();

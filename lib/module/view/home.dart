@@ -1,9 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:karaoke/module/components/home/category.dart';
-import 'package:karaoke/module/components/home/home_header.dart';
-import 'package:karaoke/module/components/home/popular.dart';
-import 'package:karaoke/module/providers/data_provider.dart';
-import 'package:provider/provider.dart';
+
+import '../../package/route.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({Key? key}) : super(key: key);

@@ -1,11 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:karaoke/animation/circular_radius_bar.dart';
-import 'package:karaoke/res/color.dart';
-import 'package:karaoke/res/constants.dart';
-import '../../../res/globals.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-
-import '../../widgets/transparent_button.dart';
+import '../../../package/route.dart';
 
 class PromotionalMusic extends StatefulWidget {
   const PromotionalMusic({Key? key}) : super(key: key);
@@ -48,7 +41,7 @@ class _PromotionalMusicState extends State<PromotionalMusic> {
                         Constants.PAUSESVG,
                       ),
                       SizedBox(
-                        height: defaultSize.screenHeight*.01,
+                        height: defaultSize.screenHeight * .01,
                       ),
                       Text('02:${value.toInt()}/05:00',
                           style: hintTextStyle(context)),

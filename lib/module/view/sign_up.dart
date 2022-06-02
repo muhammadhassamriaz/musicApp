@@ -1,12 +1,4 @@
-import 'package:flutter/gestures.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:karaoke/module/view/login.dart';
-import 'package:karaoke/module/widgets/custom_button.dart';
-import 'package:karaoke/module/widgets/custom_text_field.dart';
-import 'package:karaoke/res/color.dart';
-import 'package:karaoke/res/constants.dart';
-import 'package:karaoke/res/globals.dart';
+import '../../package/route.dart';
 
 class SignUpView extends StatefulWidget {
   const SignUpView({Key? key}) : super(key: key);

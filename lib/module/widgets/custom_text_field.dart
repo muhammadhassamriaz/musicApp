@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-
-import '../../res/globals.dart';
+import '../../package/route.dart';
 
 class CustomTextField extends StatefulWidget {
   final bool isReadable;

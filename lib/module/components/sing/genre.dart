@@ -1,7 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:karaoke/module/widgets/genre_tile.dart';
-import 'package:karaoke/res/constants.dart';
-import 'package:karaoke/res/globals.dart';
+import '../../../package/route.dart';
 
 class Genre extends StatelessWidget {
   const Genre({Key? key}) : super(key: key);

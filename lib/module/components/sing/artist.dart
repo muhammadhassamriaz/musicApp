@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:karaoke/module/widgets/info_tile.dart';
-import 'package:karaoke/res/globals.dart';
+import '../../../package/route.dart';
 
 class Artist extends StatelessWidget {
   const Artist({Key? key}) : super(key: key);

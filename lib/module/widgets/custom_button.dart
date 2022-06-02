@@ -1,7 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
-
-import '../../res/globals.dart';
+import '../../package/route.dart';
 
 class CustomButton extends StatelessWidget {
   const CustomButton({

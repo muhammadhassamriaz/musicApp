@@ -1,11 +1,4 @@
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:flutter/material.dart';
-import 'package:karaoke/module/view/sing_song.dart';
-import 'package:karaoke/module/widgets/back_button.dart';
-import 'package:karaoke/res/color.dart';
-import 'package:karaoke/res/constants.dart';
-import 'package:liquid_progress_indicator/liquid_progress_indicator.dart';
-import '../../res/globals.dart';
+import '../../package/route.dart';
 
 class RecordView extends StatefulWidget {
   const RecordView({Key? key}) : super(key: key);

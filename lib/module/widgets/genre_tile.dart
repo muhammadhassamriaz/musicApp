@@ -1,7 +1,4 @@
-import 'package:flutter/material.dart';
-
-import '../../res/constants.dart';
-import '../../res/globals.dart';
+import '../../package/route.dart';
 
 class GenreTile extends StatelessWidget {
   const GenreTile({Key? key}) : super(key: key);

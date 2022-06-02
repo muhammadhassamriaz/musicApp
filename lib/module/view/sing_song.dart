@@ -1,8 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:karaoke/module/components/record_song/controls.dart';
-import 'package:karaoke/res/globals.dart';
-
-import '../widgets/back_button.dart';
+import '../../package/route.dart';
 
 class SingSong extends StatelessWidget {
   const SingSong({Key? key}) : super(key: key);

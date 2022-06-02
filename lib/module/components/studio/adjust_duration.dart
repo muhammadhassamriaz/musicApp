@@ -1,7 +1,4 @@
-import 'package:flutter/material.dart';
-
-import '../../../res/color.dart';
-import '../../../res/globals.dart';
+import '../../../package/route.dart';
 
 class AdjustDuration extends StatelessWidget {
   const AdjustDuration({Key? key}) : super(key: key);

@@ -1,7 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:karaoke/res/globals.dart';
-
-import '../../../res/color.dart';
+import '../../../package/route.dart';
 
 class SingTabbar extends StatefulWidget {
   const SingTabbar({Key? key}) : super(key: key);

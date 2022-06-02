@@ -1,10 +1,6 @@
 import 'dart:io';
-import 'package:flutter/material.dart';
-import 'package:karaoke/module/providers/data_provider.dart';
 
-import '../../res/constants.dart';
-import 'bottom_nav_icon.dart';
-import 'package:provider/provider.dart';
+import '../../package/route.dart';
 
 class BottomNavBar extends StatefulWidget {
   const BottomNavBar({Key? key}) : super(key: key);

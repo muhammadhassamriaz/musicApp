@@ -1,11 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:karaoke/module/providers/data_provider.dart';
-import 'package:karaoke/module/widgets/custom_text_field.dart';
-import 'package:karaoke/res/color.dart';
-import 'package:karaoke/res/constants.dart';
-import 'package:karaoke/res/globals.dart';
-import 'package:provider/provider.dart';
-import 'package:flutter_svg/flutter_svg.dart';
+import '../../../package/route.dart';
 
 class HomeViewHeader extends StatefulWidget {
   const HomeViewHeader({Key? key}) : super(key: key);

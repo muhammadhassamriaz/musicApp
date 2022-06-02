@@ -1,12 +1,4 @@
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
-import 'package:karaoke/module/components/studio/studio_tabbar.dart';
-import 'package:karaoke/module/components/studio/voice_tab.dart';
-import 'package:karaoke/module/components/studio/volume_tab.dart';
-
-import '../../res/color.dart';
-import '../../res/globals.dart';
-import '../widgets/back_button.dart';
+import '../../package/route.dart';
 
 class MyKaraokeStudio extends StatefulWidget {
   const MyKaraokeStudio({Key? key}) : super(key: key);

@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-
-import '../../res/globals.dart';
+import '../../package/route.dart';
 
 class TransparentButton extends StatelessWidget {
   const TransparentButton({

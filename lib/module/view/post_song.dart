@@ -1,13 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:karaoke/module/components/record_song/promotional_music_popup.dart';
-import 'package:karaoke/module/view/my_studio.dart';
-import 'package:karaoke/module/widgets/transparent_button.dart';
-import 'package:karaoke/res/color.dart';
-
-import '../../animation/slide_up_transparent_animation.dart';
-import '../../res/globals.dart';
-import '../components/record_song/end_song_pop_up.dart';
-import '../widgets/back_button.dart';
+import '../../package/route.dart';
 
 class PostSong extends StatelessWidget {
   const PostSong({Key? key}) : super(key: key);
